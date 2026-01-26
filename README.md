@@ -49,6 +49,3 @@ The goals of this repository are to:
 * Security principles and the AWS Well-Architected Framework
 * Real-world cloud scenarios and best practices
 
----
-
-If you want, I can also make this **more casual**, **more technical**, or **GitHub-README-optimized** (with badges and links).
