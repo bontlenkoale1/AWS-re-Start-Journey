@@ -6,7 +6,7 @@ Welcome to my **AWS Cloud Practitioner re/Start Journey** 🚀
 
 This repository captures my learning experience throughout the **AWS re/Start Program**. It includes my notes, hands-on labs, and practical projects as I dive into cloud computing using **Amazon Web Services (AWS)**.
 
-More than just a collection of files, this repository serves as both a **learning journal** and a **portfolio**—showcasing my growth, understanding, and real-world application of AWS concepts as I build a solid foundation for a career in cloud computing.
+More than just a collection of files, this repository serves as both a **learning journal** and a **portfolio** showcasing my growth, understanding, and real-world application of AWS concepts as I build a solid foundation for a career in cloud computing.
 
 ---
 
