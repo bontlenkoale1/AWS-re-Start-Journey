@@ -12,13 +12,19 @@ More than just a collection of files, this repository serves as both a **learnin
 
 ## 🔍 What You’ll Find in This Repository
 
-📘 AWS Cloud Practitioner notes and summaries
-🧪 Hands-on labs and guided exercises
-🛠️ Practical projects and mini implementations
-📸 Screenshots and lab validations
-💡 Key AWS concepts with real-world use cases
-📊 Billing, pricing, and cost management insights
-🔐 Security fundamentals and best practices
+• 📘 AWS Cloud Practitioner notes and summaries
+
+• 🧪 Hands-on labs and guided exercises
+
+• 🛠️ Practical projects
+
+• 📸 Screenshots and lab validations
+
+• 💡 Key AWS concepts with real-world use cases
+
+• 📊 Billing, pricing, and cost management insights
+
+• 🔐 Security fundamentals and best practices
 
 Each section reflects my progress as I strengthen my cloud knowledge and prepare for the **AWS Certified Cloud Practitioner** exam.
 
