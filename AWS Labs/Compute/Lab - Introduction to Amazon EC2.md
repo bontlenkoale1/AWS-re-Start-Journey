@@ -9,7 +9,7 @@ This lab demonstrates hands-on practical experience in **launching**, **resizing
 At the end of this lab,I didnt only deploy a working web-server but also explored security,automotion and instance lifecyle management that are critical for building reliable and resilient cloud applications.
 
 
-## Lab Architecture
+## Lab Architecture 
 
 This lab architecture shows a setup that uses an EC2 virtual computer to run a simple website, protected by a firewall, in a secure AWS data center.
 
@@ -19,5 +19,10 @@ This lab architecture shows a setup that uses an EC2 virtual computer to run a s
 
 
 # Lab Tasks
+Task 1️⃣ : Launching EC2 Instance 
+**Objective:**
+Launch an Amazon EC2 instance with termination protection enabled and automate the installation of a web server using a User Data script.
+
+I began by opening 
 
 
