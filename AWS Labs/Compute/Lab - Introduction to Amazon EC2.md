@@ -6,7 +6,7 @@ This lab demonstrates hands-on practical experience in **launching**, **resizing
 **Amazon Elastic Compute Cloud (EC2)** is a web service that provides resizable compute capacity in the cloud. It is designed to make web-scale cloud computing easier for developers by allowing them to quickly provision and manage virtual servers as needed.
 
 ## 🔬 What I Learned During This Lab
-At the end of this lab, I not only deployed a working web-server but also explored **security**, **automation**, and **instance lifecycle management**—critical aspects for building reliable and resilient cloud applications.
+At the end of this lab, I not only deployed a working web-server but also explored **security**, **automation**, and **instance lifecycle management**,critical aspects for building reliable and resilient cloud applications.
 
 ## 🏗️ Lab Architecture
 This lab architecture shows a setup that uses an EC2 virtual computer to run a simple website, protected by a firewall, in a secure AWS data center.
@@ -39,5 +39,6 @@ Launch an Amazon EC2 instance with *termination protection* to prevent accidenta
   - Copied and pasted the following script into **User Data**:
 
 <img width="1469" height="195" alt="User Data Script" src="https://github.com/user-attachments/assets/f8171672-86f2-4bfd-9e67-0564e555b022" />
+
 
 
