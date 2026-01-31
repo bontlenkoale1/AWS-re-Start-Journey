@@ -19,8 +19,11 @@ This lab architecture shows a setup that uses an EC2 virtual computer to run a s
 ----
 
 # Lab Tasks
+
 Task 1️⃣ : Launching EC2 Instance 
+
 **Objective:**
+
 In this task I was tasked with launching an Amazon EC2 Instance with *termination protection*,which will prevent me from terminating my EC2 Instance by accident.In addition,deploy my instance with a **User Data** which will allow me to deploy a simple web server.
 
 • The first that I did was to navigate to my **AWS Management Console**, and on the search prompt that's on the navbar/navigation bar I searched for EC2 which then led me to the EC2 and clicked on the dashboard just to ensure that I was on the EC2 dashboard page,from there I clicked the *Launch Instance* yellow button.
@@ -57,5 +60,23 @@ In this task I was tasked with launching an Amazon EC2 Instance with *terminatio
 • I followed by adding storage,Amazon EC2 stores data on a network-attached virtual disk called Amazon EBS. I launched the EC2 instance using the default 8 GIB disk volume.
 
 • In the configuring advanced details,I expanded it and selected the dropdown for the Termination protection and chose **Enable**. I proceeded with coping and pasting the commands below into the **User Data**
+
 <img width="1469" height="195" alt="User Data Script" src="https://github.com/user-attachments/assets/f8171672-86f2-4bfd-9e67-0564e555b022" />
+
+• After I have configured my EC2 instance settings,on the right panel I clicked the ``Launch Instance`` button. From there on I selected view all instances and waited till my instance showed that it was running.
+
+----
+
+## Task 2️⃣ : Monitoring My Instance
+monitoring is an important part of maintaining the reliability,availability and performance of your Amazon Elastic Compute Cloud(Amazon EC2) instance and your AWS solutions.
+
+• From the instance that I have created,I ticked the box to select it only,and navigated to the bottom of the screen to the **Status checks** tabs.
+
+• Proceeded to the monitoring tab. This tab displays Amazon CloudWatch metrics of my instance. 
+from the actions menu,I selected Monitor and troubleshoot to get instance screenshot.
+
+
+
+<img width="873" height="634" alt="aws screenshot monitor" src="https://github.com/user-attachments/assets/45fe3658-2337-4142-a0d6-3e189258f758" />
+
 
