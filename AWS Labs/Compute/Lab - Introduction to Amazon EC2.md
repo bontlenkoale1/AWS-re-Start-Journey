@@ -22,7 +22,7 @@ This lab architecture shows a setup that uses an EC2 virtual computer to run a s
 Launch an Amazon EC2 instance with *termination protection* to prevent accidental termination, and deploy it with **User Data** to run a simple web server.
 
 - Navigated to the **AWS Management Console**, searched for **EC2** in the navigation bar, and accessed the EC2 dashboard. Clicked the ***Launch Instance*** yellow button.
-- Named the instance ***Web Server*** in the *Name and tags* panel. AWS automatically creates a key-value pair with the key `Name` and the entered value.
+- Named the instance ***Web Server*** in the *Name and tags* panel. When you name your instance,AWS creates a key value pair. The key for this pair is `Name` and the value is the name you enter for your EC2 instance.
 - In the *Application and OS Images (Amazon Machine Image)* panel, selected the default **Amazon Linux 2023 AMI** from the *Quick Start* list.
   - An AMI provides the template for the instance’s root volume, launch permissions, and block device mapping.
 - Chose the **t3.micro** instance type (2 vCPUs, 1 GiB memory) from the dropdown.
@@ -39,6 +39,7 @@ Launch an Amazon EC2 instance with *termination protection* to prevent accidenta
   - Copied and pasted the following script into **User Data**:
 
 <img width="1469" height="195" alt="User Data Script" src="https://github.com/user-attachments/assets/f8171672-86f2-4bfd-9e67-0564e555b022" />
+
 
 
 
