@@ -28,8 +28,11 @@ In this task I was tasked with launching an Amazon EC2 Instance with *terminatio
 • From the Launch Instance page, I proceeded to name my instance *Web Server* in the Names and tags panel. When you name your instance,AWS creates a key value pair. The key for this pair is ***Name*** and the value is the name you enter for your EC2 instance.
 
 • Below the Name and tags,followed the AMI (Amazon Machine Image). An AMI provides the information required to launch an instance, which is a virtual server in the cloud. An AMI includes the following:
+   
    • A template for the root volume for the instance(eg an Operating System or an applicaton server  with applications)
+   
    • Launch permissions that control which AWS accounts can use the AMI to launch instances
+   
    • A block device mapping that specifies the volumes ti attach to the instance when it is launched.
 
 • The **Quick Start** list contains the commonly used AMIs. I located the Application and OS Images(Amazon Machine Image) panel and there under the AMI,I noticed the images 
@@ -42,8 +45,10 @@ listed there and decide to stick to using the Amazon Linux 2023 image which was 
 • following with configuring the network settings,the VPC indicates which virtual private cloud you want to launch the instance into. You can have multiple VPCs including different ones for development, testing, and production.In the Network settings panel,I clicked on the edit button.
 
 • In the VPC - required dropdown,I selected Lab VPC. configured security group as followed:
-          • Security group name - required: Web Server security group
-          • Description - required: security group for my web server
+
+   • Security group name - required: Web Server security group
+
+   • Description - required: security group for my web server
 
 
 • A security group is a set of firewall rules that control the traffic for your instance. When you launch an instance,you associate one or more security groups with the instance. You add rules to each security group that allows traffic to or from its associated instances. You can modify the rules for security groups at any time, the new rules are automatically applied to all instances that are associated with the security group.
@@ -59,6 +64,7 @@ listed there and decide to stick to using the Amazon Linux 2023 image which was 
 
 
                     
+
 
 
 
