@@ -16,7 +16,7 @@ This lab architecture shows a setup that uses an EC2 virtual computer to run a s
 
 <img width="678" height="439" alt="lab architecture" src="https://github.com/user-attachments/assets/7c2df029-34a7-4039-831c-bebc5ed9cecf" />
 
-~~~
+----
 
 # Lab Tasks
 Task 1️⃣ : Launching EC2 Instance 
