@@ -1,7 +1,3 @@
-Here's the README.md with improved formatting, structure, and bullet point placement:
-
----
-
 ## Introduction to Amazon EC2 Hands-On Lab ☁️
 
 ## 🔍 Overview
@@ -43,4 +39,5 @@ Launch an Amazon EC2 instance with *termination protection* to prevent accidenta
   - Copied and pasted the following script into **User Data**:
 
 <img width="1469" height="195" alt="User Data Script" src="https://github.com/user-attachments/assets/f8171672-86f2-4bfd-9e67-0564e555b022" />
+
 
