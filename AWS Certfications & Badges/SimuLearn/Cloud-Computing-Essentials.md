@@ -13,7 +13,8 @@ I gained hands-on experience working with AWS services, developing job-ready com
 
 ## Lab Architecture 🏗️
 
-<img width="1500" height="1112" alt="ComputingSolutions" src="https://github.com/user-attachments/assets/db639b89-b316-4829-8315-ccfa0aca7d7d" />
+
+<img width="1500" height="901" alt="CloudComputingEssentials" src="https://github.com/user-attachments/assets/7199187f-a3ce-44e5-8ba3-e59932c2414d" />
 
 
 
