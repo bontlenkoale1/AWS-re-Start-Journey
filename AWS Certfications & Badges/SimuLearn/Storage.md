@@ -38,6 +38,8 @@ GitHub: https://github.com/bontlenkoale1
 
 
 
-## Achievements
+## Achievements 🏆🌠
 
-[File_systems_in_the_cloud.pdf](https://github.com/user-attachments/files/25045167/File_systems_in_the_cloud.pdf)
+<img width="990" height="760" alt="Simulearn File Systems in the cloud" src="https://github.com/user-attachments/assets/079925c4-d0f8-4065-9a42-084a261ce164" />
+
+
