@@ -3,7 +3,7 @@
 
 ## Overview 🔍
 
-#Simulated business scenario
+# Simulated business scenario
 
 The island stabilization team wanted to increase the reliability and availability of its current stabilization system.
 
