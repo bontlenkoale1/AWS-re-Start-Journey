@@ -103,6 +103,8 @@ https://s3.eu-north-1.amazonaws.com/freshlyground.cafe-static-sitee/index.html
 
 <img width="1919" height="976" alt="Screenshot 2026-02-05 162205" src="https://github.com/user-attachments/assets/8d355f5d-1cfa-40c4-a613-c9212a8216fb" />
 
+<img width="1919" height="969" alt="Screenshot 2026-02-05 161706" src="https://github.com/user-attachments/assets/514253a8-c465-4367-a27f-ce968b712124" />
+
 
 
 
