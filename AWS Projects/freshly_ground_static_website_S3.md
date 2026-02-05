@@ -52,5 +52,23 @@ Move from on-premises to a full AWS cloud environment, leveraging AWS’s scalab
 
 <img width="515" height="525" alt="freshlyground (2)" src="https://github.com/user-attachments/assets/b8dd3eb0-371a-474c-9ca6-166973c4c63c" />
 
+
+
 <img width="1227" height="688" alt="freshlyground" src="https://github.com/user-attachments/assets/2c79f896-630e-4cf4-a520-a7dc33cdf480" />
+
+
+----
+
+##  Static Amazon S3 Website 🌐
+
+## Café Name 🏷️ 
+
+FreshlyGround Café
+
+![create bucket](https://github.com/user-attachments/assets/4037f45b-c669-4294-aac8-e809708f7cb6)
+![WhatsApp Image 2026-02-05 at 11 28 40](https://github.com/user-attachments/assets/23d4b4d8-4ddc-462d-bb79-15a399665487)
+
+
+
+
 
