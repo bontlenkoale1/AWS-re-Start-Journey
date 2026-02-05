@@ -98,11 +98,12 @@ https://s3.eu-north-1.amazonaws.com/freshlyground.cafe-static-sitee/index.html
 
 <img width="1916" height="958" alt="Screenshot 2026-02-05 161549" src="https://github.com/user-attachments/assets/6e485e88-4cfc-457f-9123-0085b209ac29" />
 
+<img width="1916" height="971" alt="Screenshot 2026-02-05 162359" src="https://github.com/user-attachments/assets/6467da76-8bb1-4d02-9d90-0efef88f3e0e" />
+
 
 <img width="1919" height="976" alt="Screenshot 2026-02-05 162205" src="https://github.com/user-attachments/assets/8d355f5d-1cfa-40c4-a613-c9212a8216fb" />
 
 
-<img width="1919" height="958" alt="Screenshot 2026-02-05 161625" src="https://github.com/user-attachments/assets/04aafa4a-e32a-49d9-ab0d-44393ca09ffa" />
 
 
 
