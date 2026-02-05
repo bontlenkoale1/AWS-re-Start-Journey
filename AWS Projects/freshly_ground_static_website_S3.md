@@ -67,9 +67,6 @@ FreshlyGround Café
 
 ![create bucket](https://github.com/user-attachments/assets/4037f45b-c669-4294-aac8-e809708f7cb6)
 
-![WhatsApp Image 2026-02-05 at 11 28 40](https://github.com/user-attachments/assets/191f1974-f92d-48dc-900b-a4a7a93c0264)
-
-
 
 ![WhatsApp Image 2026-02-05 at 11 28 40](https://github.com/user-attachments/assets/fd54d5b6-bd84-4446-8a3a-ddea4ba1ad9a)
 
