@@ -73,7 +73,37 @@ FreshlyGround Café
 
 ![WhatsApp Image 2026-02-05 at 11 28 40](https://github.com/user-attachments/assets/fd54d5b6-bd84-4446-8a3a-ddea4ba1ad9a)
 
+uploaded necessary files for the website
 
-![WhatsApp Image 2026-02-05 at 11 28 39](https://github.com/user-attachments/assets/2761cc6c-2d73-4312-a44c-aa09ce8d2965)
+![files in objects](https://github.com/user-attachments/assets/8021f948-3795-4492-84a2-2dbbd1505653)
+
+
+
+## How to Deploy the S3 Website 🛠️ 
+
+**Create an S3 bucket named freshlyground-cafe-website**
+
+• Enable Static Website Hosting in bucket properties
+
+• Upload all files from s3-website/ to the bucket
+
+• Set bucket policy to allow public read access
+
+• Access the site via the S3 website endpoint or link a custom domain
+
+----
+
+## Successful Hosting 🌐📱
+
+
+<img width="1919" height="958" alt="Screenshot 2026-02-05 161625" src="https://github.com/user-attachments/assets/04aafa4a-e32a-49d9-ab0d-44393ca09ffa" />
+
+<img width="1919" height="958" alt="Screenshot 2026-02-05 161608" src="https://github.com/user-attachments/assets/a98eb4d9-586a-4971-88a5-7f6def8333e7" />
+
+<img width="1916" height="958" alt="Screenshot 2026-02-05 161549" src="https://github.com/user-attachments/assets/6e485e88-4cfc-457f-9123-0085b209ac29" />
+
+<img width="1919" height="954" alt="Screenshot 2026-02-05 161644" src="https://github.com/user-attachments/assets/f6234a5b-2497-42af-b17e-8cbcf14583c8" />
+
+
 
 
