@@ -20,17 +20,6 @@ Amazon EFS provides a serverless, cloud-native file system that automatically sc
 
 ---
 
-##👩🏽‍💻 Author
-
-Bridgette Nkoale
-
-Cloud Computing Learner | Frontend Developer
-
-GitHub: https://github.com/bontlenkoale1
-
-
----
-
 ## File Systems In The Cloud Architecture
 
 <img width="1500" height="943" alt="FileSystemsintheCloud" src="https://github.com/user-attachments/assets/2e37c0eb-4255-48a1-9b0d-0c9098ca09fd" />
