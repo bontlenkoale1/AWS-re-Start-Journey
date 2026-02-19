@@ -170,7 +170,10 @@ Hello From Your Web Server!
 
 ----
 
-Task 4️⃣ : Resizing My Instance (Instance Type & EBS Volume)
+
+
+
+## Task 4️⃣ : Resizing My Instance (Instance Type & EBS Volume)
 
 Objective:
 In this task, I learned how to resize both the EC2 instance type and its attached EBS storage volume.
@@ -188,6 +191,13 @@ Before resizing an instance, it must first be stopped.
 
 I waited until the instance state displayed Stopped.
 
+
+<img width="1917" height="858" alt="Screenshot 2026-01-27 115758" src="https://github.com/user-attachments/assets/7cb2c1f9-ce55-4de2-88b0-a8c166f71c9d" />
+
+
+<img width="1916" height="861" alt="Screenshot 2026-01-27 115834" src="https://github.com/user-attachments/assets/3788ae28-148f-4745-831c-098451f15b34" />
+
+
 🔄 Step 2: Change the Instance Type
 
 • From the Actions menu, I selected:
@@ -196,6 +206,15 @@ Instance Settings → Change Instance Type
 • I changed the instance type from:
 
 t3.micro ➝ t3.small
+
+
+
+<img width="1915" height="863" alt="Screenshot 2026-01-27 120031" src="https://github.com/user-attachments/assets/364245bd-3804-4616-a723-6672a69dbca4" />
+
+
+
+<img width="1919" height="805" alt="Screenshot 2026-01-27 120347" src="https://github.com/user-attachments/assets/d746a91b-a6d4-4d9e-831a-f8d1835d1c51" />
+
 
 • I selected Change instance type.
 
@@ -234,14 +253,20 @@ Increased storage (10 GiB)
 ✅ I successfully resized both compute capacity and storage.
 
 
+
 ----
 
-Task 5️⃣ : Testing Termination Protection
 
-Objective:
+## Task 5️⃣ : Testing Termination Protection
+
 In this task, I tested termination protection to understand how AWS prevents accidental deletion of EC2 instances.
 
 Termination protection is a feature that prevents an EC2 instance from being accidentally deleted.
+
+
+<img width="1909" height="873" alt="Screenshot 2026-01-27 120629" src="https://github.com/user-attachments/assets/336fe04c-0f13-4a5f-b2bc-8ea488f60cda" />
+
+
 
 ❌ Attempting to Terminate the Instance
 
@@ -252,6 +277,10 @@ Termination protection is a feature that prevents an EC2 instance from being acc
 However, the instance did not terminate.
 
 Instead, I received an error message stating that the instance could not be terminated.
+
+
+<img width="1919" height="763" alt="Screenshot 2026-01-26 233656" src="https://github.com/user-attachments/assets/7aa9d35b-63ff-4ee3-bd7f-cca7ffb1c947" />
+
 
 This happened because termination protection was enabled, which I configured during instance launch.
 
@@ -270,23 +299,31 @@ Instance settings → Change termination protection
 
 This time, the instance was successfully terminated.
 
-🎯 Conclusion
+
+<img width="1918" height="869" alt="Screenshot 2026-01-27 120914" src="https://github.com/user-attachments/assets/ba6d3c38-e7b4-4bf6-9a4a-c1455bae3763" />
+
+-----
+
+
+
+ ## In Conclusion 🎯
 
 In this lab, I gained hands-on experience with:
 
-Launching an EC2 instance
+✅ Launching an EC2 instance
 
-Configuring User Data to automate web server deployment
+✅ Configuring User Data to automate web server deployment
 
-Managing security groups as virtual firewalls
+✅ Managing security groups as virtual firewalls
 
-Monitoring instance performance
+✅ Monitoring instance performance
 
-Resizing instance types and storage
+✅ Resizing instance types and storage
 
-Testing and understanding termination protection
+✅ Testing and understanding termination protection
 
 This lab strengthened my understanding of EC2 lifecycle management, cloud security best practices, and resource optimization in AWS.
+
 
 
 
