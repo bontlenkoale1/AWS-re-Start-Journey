@@ -30,6 +30,12 @@ In this task I was tasked with launching an Amazon EC2 Instance with *terminatio
 
 • From the Launch Instance page, I proceeded to name my instance *Web Server* in the Names and tags panel. When you name your instance,AWS creates a key value pair. The key for this pair is ***Name*** and the value is the name you enter for your EC2 instance.
 
+
+
+<img width="1916" height="861" alt="web server" src="https://github.com/user-attachments/assets/0fd25198-7c9e-46d3-a34d-301e69ab77f4" />
+
+
+
 • Below the Name and tags,followed the AMI (Amazon Machine Image). An AMI provides the information required to launch an instance, which is a virtual server in the cloud. An AMI includes the following:
 
         • A template for the root volume for the instance(eg an Operating System or an applicaton server  with applications)
@@ -42,6 +48,13 @@ In this task I was tasked with launching an Amazon EC2 Instance with *terminatio
 • The **Quick Start** list contains the commonly used AMIs. I located the Application and OS Images(Amazon Machine Image) panel and there under the AMI,I noticed the images listed there and decide to stick to using the Amazon Linux 2023 image which was already selected by default.
 
 • From choosing the images, I followed with choosing an instance type,I selected t3.micro instance which has 2 virtual CPU and 1 GIB of memory from the dropdown. Instance types comprise varying combinations of CPU, memory, networking capacity and give you the flexibility to choose the appropriate resources for your applications. Each instance type includes one or more *instance sizes* so that you can scale your resources to the requirements of your target workload.
+
+
+
+
+<img width="1919" height="821" alt="Screenshot 2026-01-27 113237" src="https://github.com/user-attachments/assets/19294e10-a887-48e1-843d-1577e29703e2" />
+
+
 
 • I then configured a key pair in the (login) key pair panel and selected **proceed without a key pair**
 
@@ -78,5 +91,195 @@ from the actions menu,I selected Monitor and troubleshoot to get instance screen
 
 
 <img width="873" height="634" alt="aws screenshot monitor" src="https://github.com/user-attachments/assets/45fe3658-2337-4142-a0d6-3e189258f758" />
+
+
+-----
+
+## Task 3️⃣ : Updating Security Group and Access the Web Server
+
+In this task, I was required to update the security group to allow HTTP traffic and successfully access my deployed web server.
+
+When I first launched the EC2 instance, I had already configured User Data to automatically install a web server and create a simple HTML page. However, when I tried to access the server from the browser, it did not load.
+
+• I selected my Web Server instance by checking the box and navigated to the Details tab.
+
+• I copied the Public IPv4 address of the instance.
+
+• I opened a new browser tab, pasted the Public IP address, and pressed Enter.
+
+❓ Was I able to access the web server?
+
+No, I was not able to access the web server.
+
+This happened because the security group did not allow inbound traffic on port 80 (HTTP). Even though the web server was running, AWS security groups act as virtual firewalls. Since no rule allowed HTTP traffic, the request was blocked.
+
+This demonstrated how security groups protect EC2 instances by controlling allowed inbound and outbound traffic.
+
+
+
+<img width="1912" height="860" alt="Screenshot 2026-01-27 115315" src="https://github.com/user-attachments/assets/bd306e3d-4ddc-472c-9412-022a26690e3f" />
+
+
+🔧 Updating the Security Group
+
+To fix the issue, I updated the security group settings:
+
+• I returned to the EC2 Management Console.
+
+• From the left navigation pane, under Network & Security, I selected Security Groups.
+
+• I selected Web Server security group.
+
+• I navigated to the Inbound rules tab.
+
+• I clicked Edit inbound rules and selected Add rule.
+
+I configured the rule as follows:
+
+Type: HTTP
+
+Source: Anywhere-IPv4
+
+• I clicked Save rules.
+
+🌐 Accessing the Web Server
+
+After saving the rule:
+
+• I returned to the browser tab.
+• I refreshed the page.
+
+This time, I successfully saw the message:
+
+Hello From Your Web Server!
+
+
+
+<img width="1916" height="967" alt="Screenshot 2026-01-27 115604" src="https://github.com/user-attachments/assets/fe584537-27b1-453f-8180-84169fe5189c" />
+
+
+
+✅ This confirmed that my EC2 instance was successfully running a web server and that the security group was correctly configured to allow HTTP traffic.
+
+
+----
+
+Task 4️⃣ : Resizing My Instance (Instance Type & EBS Volume)
+
+Objective:
+In this task, I learned how to resize both the EC2 instance type and its attached EBS storage volume.
+
+As application workloads change, instances may become over-utilized or under-utilized. AWS allows you to resize instances to match workload demands.
+
+🛑 Step 1: Stop the Instance
+
+Before resizing an instance, it must first be stopped.
+
+• I navigated to Instances in the left navigation pane.
+• I selected my Web Server instance.
+• I selected Instance state → Stop instance.
+• I confirmed by clicking Stop.
+
+I waited until the instance state displayed Stopped.
+
+🔄 Step 2: Change the Instance Type
+
+• From the Actions menu, I selected:
+Instance Settings → Change Instance Type
+
+• I changed the instance type from:
+
+t3.micro ➝ t3.small
+
+• I selected Change instance type.
+
+The t3.small instance provides more memory compared to t3.micro, allowing better performance for larger workloads.
+
+💾 Step 3: Resize the EBS Volume
+
+• From the left navigation pane, under Elastic Block Store, I selected Volumes.
+
+• I selected the attached volume.
+
+• From the Actions menu, I selected Modify Volume.
+
+The original disk size was:
+
+8 GiB
+
+I increased it to:
+
+10 GiB
+
+• I selected Modify and confirmed the changes.
+
+▶ Step 4: Restart the Instance
+
+• I returned to Instances.
+• I selected the Web Server instance.
+• I selected Instance state → Start instance.
+
+After restarting, my instance now had:
+
+Increased memory (t3.small)
+
+Increased storage (10 GiB)
+
+✅ I successfully resized both compute capacity and storage.
+
+
+----
+
+Task 5️⃣ : Testing Termination Protection
+
+Objective:
+In this task, I tested termination protection to understand how AWS prevents accidental deletion of EC2 instances.
+
+Termination protection is a feature that prevents an EC2 instance from being accidentally deleted.
+
+❌ Attempting to Terminate the Instance
+
+• I selected the Web Server instance.
+• I selected Instance state → Terminate (delete) instance.
+• I confirmed termination.
+
+However, the instance did not terminate.
+
+Instead, I received an error message stating that the instance could not be terminated.
+
+This happened because termination protection was enabled, which I configured during instance launch.
+
+🔓 Disabling Termination Protection
+
+• From the Actions menu, I selected:
+Instance settings → Change termination protection
+
+• I unchecked Enable.
+• I selected Save.
+
+🗑 Final Termination
+
+• I selected Instance state → Terminate instance.
+• I confirmed by clicking Terminate.
+
+This time, the instance was successfully terminated.
+
+🎯 Conclusion
+
+In this lab, I gained hands-on experience with:
+
+Launching an EC2 instance
+
+Configuring User Data to automate web server deployment
+
+Managing security groups as virtual firewalls
+
+Monitoring instance performance
+
+Resizing instance types and storage
+
+Testing and understanding termination protection
+
+This lab strengthened my understanding of EC2 lifecycle management, cloud security best practices, and resource optimization in AWS.
 
 
