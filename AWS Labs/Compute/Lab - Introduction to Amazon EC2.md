@@ -68,6 +68,12 @@ In this task I was tasked with launching an Amazon EC2 Instance with *terminatio
 
 • A security group is a set of firewall rules that control the traffic for your instance. When you launch an instance,you associate one or more security groups with the instance. You add rules to each security group that allows traffic to or from its associated instances. You can modify the rules for security groups at any time, the new rules are automatically applied to all instances that are associated with the security group.
 
+
+
+<img width="1915" height="755" alt="Screenshot 2026-01-27 113216" src="https://github.com/user-attachments/assets/3f3071b7-487c-4286-85d1-06af432ff160" />
+
+
+
 • Under the Inbound security groups rules I selected the Remove button as I wont be using SSH  to login my instance. Removing SSH access will improve the security of the instance.
 
 • I followed by adding storage,Amazon EC2 stores data on a network-attached virtual disk called Amazon EBS. I launched the EC2 instance using the default 8 GIB disk volume.
@@ -281,5 +287,6 @@ Resizing instance types and storage
 Testing and understanding termination protection
 
 This lab strengthened my understanding of EC2 lifecycle management, cloud security best practices, and resource optimization in AWS.
+
 
 
