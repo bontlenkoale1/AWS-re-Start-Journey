@@ -64,15 +64,6 @@ To connect to the database server, I ran the following command in the terminal. 
 mysql -u root --password='re:St@rt!9'
 ```
 
-> **Note:** At any stage of the lab, if the Session Manager window became unresponsive or I needed to reconnect to the database, I followed these steps:
-> 1. Closed the Session Manager window and tried to reconnect
-> 2. Ran the following commands in the terminal:
->    ```bash
->    sudo su
->    cd /home/ec2-user/
->    mysql -u root --password='re:St@rt!9'
->    ```
-
 ✅ **Task complete:** I successfully connected to the Command Host and database server.
 
 ---
