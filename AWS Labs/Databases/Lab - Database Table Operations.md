@@ -176,6 +176,16 @@ To verify that the world database has been deleted, run the following query.
 SHOW DATABASES;
 ```
 
+----
+
+At the end of this lab, I would have completed some common database and table operations:
+
+
+![architecture-end (2)](https://github.com/user-attachments/assets/696f003c-4661-41cd-b510-5ed0708f409c)
+
+
+
+A lab user creates a database and tables. Other displayed statements are SHOW, ALTER, and DROP.
 
 
 ---
