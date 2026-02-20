@@ -143,6 +143,11 @@ In this task, I used the **yum** package manager to install the MariaDB client a
 sudo yum install mariadb -y
 ```
 
+
+<img width="1911" height="928" alt="Screenshot 2026-02-16 002819" src="https://github.com/user-attachments/assets/fd182217-36a0-45da-904e-b53cc2143ba6" />
+
+
+
 The MariaDB client is what I used in later steps to connect to the Aurora instance.
 
 Using a different browser tab, I went back to the AWS Management Console and in the search bar, searched for and chose **RDS**.
@@ -271,6 +276,11 @@ INSERT INTO `country` VALUES ('CRI','Costa Rica','North America','Central Americ
 
 INSERT INTO `country` VALUES ('AUS','Australia','Oceania','Australia and New Zealand',7741220.00,1901,18886000,79.8,351182.00,392911.00,'Australia','Constitutional Monarchy, Federation',135,'AU');
 ```
+
+
+
+<img width="1917" height="909" alt="Screenshot 2026-02-16 004439" src="https://github.com/user-attachments/assets/b72de78a-158d-46e3-8dbf-323112bab26b" />
+
 
 **Expected output for each INSERT:**
 ```
