@@ -104,7 +104,6 @@ I configured the following options:
 
 I scrolled to the bottom and chose **Create database**.
 
-> **Note:** My Aurora DB instance was in the process of launching and took up to 5 minutes to launch. However, I continued to the next task.
 
 Once the database completed creating, I saw a notification message:
 ```
