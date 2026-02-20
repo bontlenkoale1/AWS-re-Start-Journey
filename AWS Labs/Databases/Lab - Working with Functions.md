@@ -259,6 +259,11 @@ I have now successfully:
 - ✅ Used the **DISTINCT()** function to filter duplicate records
 - ✅ Used functions in the SELECT statement and WHERE clause
 
+At the end of this lab, you would have used the SELECT statement and WHERE clause with some common database functions:
+![architecture-end (3)](https://github.com/user-attachments/assets/2db06c47-be0d-4ebd-93d8-455f5629f1ce)
+
+A lab user is connected to a database instance. It also displays some commonly used SQL database functions.
+
 ---
 
 ## Additional Resources 📚
