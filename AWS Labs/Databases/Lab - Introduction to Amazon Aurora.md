@@ -52,6 +52,10 @@ I configured the following options:
 
 **Engine type:** `Aurora (MySQL Compatible)`
 
+
+<img width="1917" height="917" alt="Screenshot 2026-02-16 002023" src="https://github.com/user-attachments/assets/7ff30d75-d197-491c-9903-434eb936c471" />
+
+
 **Engine version:** The version specified as the default for major version 8.0
 
 **Templates:** `Dev/Test`
@@ -62,13 +66,21 @@ I configured the following options:
 - **Master password:** `admin123`
 - **Confirm password:** `admin123`
 
+
+<img width="1919" height="912" alt="Screenshot 2026-02-16 002039" src="https://github.com/user-attachments/assets/30759f92-8f20-4421-8717-fd5f072fcec0" />
+
+
 **Instance configuration:**
 - **DB instance class:** `Burstable classes (includes t classes)`
 - Selected `db.t3.medium` from the dropdown list
 
+
+<img width="1919" height="917" alt="Screenshot 2026-02-16 002104" src="https://github.com/user-attachments/assets/64c24cd6-865e-4d15-9d80-3fb18af040d0" />
+
 **Availability & durability:**
 - **Multi-AZ deployment:** `Don't create an Aurora Replica`
   - *Note: Amazon RDS Multi-AZ deployments provide enhanced availability for production workloads. Since this is a lab environment, Multi-AZ deployment was not needed.*
+ 
 
 **Connectivity:**
 - **Virtual private cloud (VPC):** `LabVPC`
