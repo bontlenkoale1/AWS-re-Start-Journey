@@ -108,8 +108,12 @@ I copied the names and IP addresses of both instances for reference:
 **The critical difference:** Instance A has **only a private IP address** assigned, while Instance B has **both private and public IP addresses** assigned.
 
 ---
+
+
 Task 2️⃣: Use SSH to Connect to EC2 Instances 🔌
+
 For Windows Users:
+
 I selected the Details drop-down menu above these instructions, then selected Show. A Credentials window was presented.
 
 I selected the Download PPK button and saved the labsuser.ppk file to my Downloads directory.
@@ -127,6 +131,7 @@ Under Connection > SSH > Auth, I clicked Browse and selected the labsuser.ppk fi
 I clicked Open to start the connection
 
 I clicked Yes when prompted to trust the host
+
 <img width="1523" height="735" alt="Screenshot 2026-02-19 155616" src="https://github.com/user-attachments/assets/98017d46-2855-4c62-8813-58e89b970444" />
 
 <img width="907" height="585" alt="Screenshot 2026-02-19 155716" src="https://github.com/user-attachments/assets/f6283740-70be-4f8e-a671-51975415a162" />
