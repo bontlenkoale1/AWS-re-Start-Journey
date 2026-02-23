@@ -110,7 +110,7 @@ I copied the names and IP addresses of both instances for reference:
 ---
 
 
-Task 2️⃣: Use SSH to Connect to EC2 Instances 🔌
+# Task 2️⃣: Use SSH to Connect to EC2 Instances 🔌
 
 For Windows Users:
 
