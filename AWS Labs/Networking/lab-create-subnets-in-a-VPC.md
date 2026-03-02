@@ -62,10 +62,12 @@ In VPC Dashboard:
 
  <img width="1913" height="918" alt="Screenshot 2026-02-22 164604" src="https://github.com/user-attachments/assets/a464779f-ee74-486d-9491-c13236c5211f" />
 
+
+ 
  **Public Subnet Settings:**
-CIDR: 192.168.1.0/26 ← gives 64 IPs
-Name: Public subnet
-AZ: No Preference
+- CIDR: 192.168.1.0/26 ← gives 64 IPs
+- Name: Public subnet
+- AZ: No Preference
 
 
 <img width="1919" height="918" alt="Screenshot 2026-02-22 164629" src="https://github.com/user-attachments/assets/c168cd14-9f5b-41be-8190-2195ab7202b4" />
