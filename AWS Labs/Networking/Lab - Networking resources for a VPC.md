@@ -324,9 +324,13 @@ I applied a **top-down methodology** following the left navigation pane in the V
 
 
 | Network settings | VPC | Test VPC |
+
 | | Subnet | Public subnet |
+
 | | Auto-assign public IP | Enable |
+
 | Firewall (security groups) | | Select existing security group |
+
 | | Existing security group | public security group |
 
 <img width="1912" height="914" alt="Screenshot 2026-02-22 175212" src="https://github.com/user-attachments/assets/2398b136-8117-400d-b4d6-9ae3770b65e9" />
