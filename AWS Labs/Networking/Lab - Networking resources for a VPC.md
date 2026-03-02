@@ -312,27 +312,17 @@ I applied a **top-down methodology** following the left navigation pane in the V
 |---------|-------|-------|
 | Name | Name | (left blank) |
 | Application and OS Images | Quick Start | Amazon Linux |
-
-<img width="1915" height="917" alt="Screenshot 2026-02-22 175136" src="https://github.com/user-attachments/assets/afefe5b6-ab3a-42cc-903d-7b19f4c34709" />
-
-
 | | Amazon Machine Image | Amazon Linux 2023 AMI |
 | Instance type | Instance type | t3.micro |
 | Key pair | Key pair name | vockey |
-
-<img width="1915" height="913" alt="Screenshot 2026-02-22 175156" src="https://github.com/user-attachments/assets/e736ef15-d42f-4095-b000-71e39f6eccf1" />
-
-
 | Network settings | VPC | Test VPC |
-
 | | Subnet | Public subnet |
-
 | | Auto-assign public IP | Enable |
-
 | Firewall (security groups) | | Select existing security group |
-
 | | Existing security group | public security group |
 
+<img width="1915" height="917" alt="Screenshot 2026-02-22 175136" src="https://github.com/user-attachments/assets/afefe5b6-ab3a-42cc-903d-7b19f4c34709" />
+<img width="1915" height="913" alt="Screenshot 2026-02-22 175156" src="https://github.com/user-attachments/assets/e736ef15-d42f-4095-b000-71e39f6eccf1" />
 <img width="1912" height="914" alt="Screenshot 2026-02-22 175212" src="https://github.com/user-attachments/assets/2398b136-8117-400d-b4d6-9ae3770b65e9" />
 
 4. Clicked **Launch instance**
