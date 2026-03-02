@@ -89,7 +89,7 @@ Went to "Your VPCs" in left menu. Saw "First VPC" listed with correct CIDR. ✅
 ----
 
 
-##Task 2️⃣: Send the response to the customer 
+# Task 2️⃣: Send the response to the customer 
 
 "Good Day Paulo! Got your VPC set up. Here's what I did:
 
