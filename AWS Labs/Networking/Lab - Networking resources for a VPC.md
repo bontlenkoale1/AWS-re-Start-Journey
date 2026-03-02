@@ -1,4 +1,4 @@
-<img width="1911" height="909" alt="Screenshot 2026-02-22 172351" src="https://github.com/user-attachments/assets/a4aa6428-e700-4234-8c9f-f9e81bf330a0" /># Creating Networking Resources in an Amazon Virtual Private Cloud (VPC) 🌐
+# Creating Networking Resources in an Amazon Virtual Private Cloud (VPC) 🌐
 
 ---
 
