@@ -78,7 +78,6 @@ In VPC Dashboard:
 
 
 
-
 Left everything else default.
 
 ### 4 Hit Create
@@ -87,9 +86,12 @@ Clicked "Create VPC" and waited for the success message.
 ### 5 Double-check It Worked
 Went to "Your VPCs" in left menu. Saw "First VPC" listed with correct CIDR. ✅
 
-## What I'd Tell Paulo
+----
 
-"Hey Paulo! Got your VPC set up. Here's what I did:
+
+##Task 2️⃣: Send the response to the customer 
+
+"Good Day Paulo! Got your VPC set up. Here's what I did:
 
 - **Picked 192.168.0.0/18** for your VPC - gives you 16k IPs (more than the 15k you wanted). And yep, 192.x.x.x is totally private - good memory!
 
