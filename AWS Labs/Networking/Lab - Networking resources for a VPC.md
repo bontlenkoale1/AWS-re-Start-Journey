@@ -1,4 +1,4 @@
-# Creating Networking Resources in an Amazon Virtual Private Cloud (VPC) 🌐
+<img width="1911" height="909" alt="Screenshot 2026-02-22 172351" src="https://github.com/user-attachments/assets/a4aa6428-e700-4234-8c9f-f9e81bf330a0" /># Creating Networking Resources in an Amazon Virtual Private Cloud (VPC) 🌐
 
 ---
 
@@ -89,7 +89,14 @@ I applied a **top-down methodology** following the left navigation pane in the V
 | IPv6 CIDR block | No IPv6 CIDR block |
 | Tenancy | Default |
 
+<img width="1906" height="905" alt="Screenshot 2026-02-22 165829" src="https://github.com/user-attachments/assets/a46498ba-2a8c-4e10-8c07-d6e307cb3b42" />
+
+
+
 3. Clicked **Create VPC**
+
+<img width="1910" height="917" alt="Screenshot 2026-02-22 170001" src="https://github.com/user-attachments/assets/b0fb41dc-2888-4ef1-9684-b5fa7d7812f6" />
+
 
 ---
 
@@ -107,9 +114,14 @@ I applied a **top-down methodology** following the left navigation pane in the V
 | IPv4 CIDR block | 192.168.1.0/18 |
 
 
+<img width="1911" height="917" alt="Screenshot 2026-02-22 170426" src="https://github.com/user-attachments/assets/0d129648-5e3f-4f8c-be04-4698391ab596" />
 
 
 3. Clicked **Create subnet**
+
+
+<img width="1910" height="922" alt="Screenshot 2026-02-22 172023" src="https://github.com/user-attachments/assets/0d3b9f4c-50c7-478d-b9d0-8703a08b766d" />
+
 
 
 ---
@@ -125,7 +137,14 @@ I applied a **top-down methodology** following the left navigation pane in the V
 | Name | Public route table |
 | VPC | Test VPC |
 
+<img width="1917" height="917" alt="Screenshot 2026-02-22 172315" src="https://github.com/user-attachments/assets/0f6d626c-e637-40ed-9668-e2fb23a34af0" />
+
+
 3. Clicked **Create route table**
+
+
+
+<img width="1911" height="909" alt="Screenshot 2026-02-22 172351" src="https://github.com/user-attachments/assets/a1f46d2d-11b5-494a-a927-fcd240dedaca" />
 
 ---
 
@@ -141,13 +160,12 @@ I applied a **top-down methodology** following the left navigation pane in the V
 
 3. Clicked **Create internet gateway**
 
-<img width="1000" alt="Internet Gateway creation screen with IGW test VPC named" src="https://github.com/user-attachments/assets/placeholder-create-igw.png" />
 
 4. After creation, clicked **Actions** > **Attach to VPC**
 5. Selected **Test VPC** from the dropdown
 6. Clicked **Attach internet gateway**
 
-<img width="800" alt="Attach IGW to VPC screen showing Test VPC selected" src="https://github.com/user-attachments/assets/placeholder-attach-igw.png" />
+<img width="1911" height="909" alt="Screenshot 2026-02-22 172610" src="https://github.com/user-attachments/assets/41b6f2d4-77df-4343-9d78-bab5eaee4a7e" />
 
 ---
 
@@ -166,14 +184,16 @@ I applied a **top-down methodology** following the left navigation pane in the V
 
 5. Clicked **Save changes**
 
-<img width="1000" alt="Edit routes screen showing 0.0.0.0/0 destination and IGW test VPC as target" src="https://github.com/user-attachments/assets/placeholder-add-igw-route.png" />
+<img width="1918" height="913" alt="Screenshot 2026-02-22 172833" src="https://github.com/user-attachments/assets/646a20e8-8594-4ae3-a57b-708495c70e3a" />
+
 
 6. Selected the **Subnet associations** tab
 7. Clicked **Edit subnet associations**
 8. Selected **Public subnet**
 9. Clicked **Save associations**
 
-<img width="800" alt="Edit subnet associations screen with Public subnet selected" src="https://github.com/user-attachments/assets/placeholder-associate-subnet.png" />
+<img width="1908" height="906" alt="Screenshot 2026-02-22 172949" src="https://github.com/user-attachments/assets/013df0c4-36f4-408b-97bb-6308366dbc10" />
+
 
 ---
 
@@ -188,9 +208,11 @@ I applied a **top-down methodology** following the left navigation pane in the V
 | Name | Public Subnet NACL |
 | VPC | Test VPC |
 
+<img width="1910" height="916" alt="Screenshot 2026-02-22 173110" src="https://github.com/user-attachments/assets/1bc1205e-2bd3-4b42-ad76-7f3f482630ec" />
+
+
 3. Clicked **Create network ACL**
 
-<img width="800" alt="Create network ACL screen with Public Subnet NACL and Test VPC selected" src="https://github.com/user-attachments/assets/placeholder-create-nacl.png" />
 
 **Configure Inbound Rules:**
 1. Selected **Public Subnet NACL** from the list
@@ -209,7 +231,7 @@ I applied a **top-down methodology** following the left navigation pane in the V
 
 5. Clicked **Save changes**
 
-<img width="1000" alt="Inbound rules configuration showing rule 100 allowing all traffic from anywhere" src="https://github.com/user-attachments/assets/placeholder-nacl-inbound.png" />
+
 
 **Configure Outbound Rules:**
 1. Selected the **Outbound rules** tab
@@ -227,7 +249,6 @@ I applied a **top-down methodology** following the left navigation pane in the V
 
 4. Clicked **Save changes**
 
-<img width="1000" alt="Outbound rules configuration showing rule 100 allowing all traffic to anywhere" src="https://github.com/user-attachments/assets/placeholder-nacl-outbound.png" />
 
 **NACL Rule Interpretation:**
 - **Inbound Rule 100:** Allows all traffic from any source (0.0.0.0/0) to enter the subnet
@@ -248,7 +269,6 @@ I applied a **top-down methodology** following the left navigation pane in the V
 | Description | allows public access |
 | VPC | Test VPC |
 
-<img width="800" alt="Security group basic details with public security group name and Test VPC selected" src="https://github.com/user-attachments/assets/placeholder-sg-basic.png" />
 
 **Inbound Rules Configuration:**
 | Type | Protocol | Port Range | Source | Description |
@@ -257,14 +277,24 @@ I applied a **top-down methodology** following the left navigation pane in the V
 | HTTP | TCP | 80 | 0.0.0.0/0 | Web traffic from anywhere |
 | HTTPS | TCP | 443 | 0.0.0.0/0 | Secure web traffic from anywhere |
 
+
+
+<img width="1910" height="916" alt="Screenshot 2026-02-22 173944" src="https://github.com/user-attachments/assets/b976979b-9f25-42e5-8d73-a4f9ed1e48bf" />
+<img width="1908" height="870" alt="Screenshot 2026-02-22 174101" src="https://github.com/user-attachments/assets/b13737ed-3cd0-4f66-a40a-9e7644b351da" />
+
+
 **Outbound Rules Configuration:**
 | Type | Protocol | Port Range | Destination | Description |
 |------|----------|------------|-------------|-------------|
 | All traffic | All | All | 0.0.0.0/0 | Allow all outbound traffic |
 
-<img width="1000" alt="Security group inbound and outbound rules showing SSH, HTTP, HTTPS inbound and all traffic outbound" src="https://github.com/user-attachments/assets/placeholder-sg-rules.png" />
+<img width="1913" height="921" alt="Screenshot 2026-02-22 174012" src="https://github.com/user-attachments/assets/7a625609-3a6a-4204-9b8d-bb52d72bc054" />
+
 
 3. Clicked **Create security group**
+
+
+<img width="1908" height="870" alt="Screenshot 2026-02-22 174101" src="https://github.com/user-attachments/assets/1bf68f3a-736d-4f42-9b1f-e7b441752ac0" />
 
 ---
 
@@ -282,19 +312,29 @@ I applied a **top-down methodology** following the left navigation pane in the V
 |---------|-------|-------|
 | Name | Name | (left blank) |
 | Application and OS Images | Quick Start | Amazon Linux |
+
+<img width="1915" height="917" alt="Screenshot 2026-02-22 175136" src="https://github.com/user-attachments/assets/afefe5b6-ab3a-42cc-903d-7b19f4c34709" />
+
+
 | | Amazon Machine Image | Amazon Linux 2023 AMI |
 | Instance type | Instance type | t3.micro |
 | Key pair | Key pair name | vockey |
+
+<img width="1915" height="913" alt="Screenshot 2026-02-22 175156" src="https://github.com/user-attachments/assets/e736ef15-d42f-4095-b000-71e39f6eccf1" />
+
+
 | Network settings | VPC | Test VPC |
 | | Subnet | Public subnet |
 | | Auto-assign public IP | Enable |
 | Firewall (security groups) | | Select existing security group |
 | | Existing security group | public security group |
 
+<img width="1912" height="914" alt="Screenshot 2026-02-22 175212" src="https://github.com/user-attachments/assets/2398b136-8117-400d-b4d6-9ae3770b65e9" />
+
 4. Clicked **Launch instance**
 5. Clicked **View all instances** to monitor launch status
 
-<img width="1200" alt="EC2 instance launch configuration showing all settings" src="https://github.com/user-attachments/assets/placeholder-launch-ec2.png" />
+
 
 *The instance transitions from **Pending** to **Running** state.*
 
@@ -314,30 +354,8 @@ I applied a **top-down methodology** following the left navigation pane in the V
    - Connection > SSH > Auth: Browse and select `labsuser.ppk`
 7. Clicked **Open**
 8. Clicked **Yes** when prompted to trust the host
+<img width="610" height="551" alt="Screenshot 2026-02-22 175829" src="https://github.com/user-attachments/assets/58996155-d731-4f49-803f-1ad0692f82ff" />
 
-<img width="800" alt="PuTTY configuration showing hostname and auth settings" src="https://github.com/user-attachments/assets/placeholder-putty-config.png" />
-
-#### For macOS/Linux Users:
-
-1. Selected the **Details** drop-down menu
-2. Selected **Show** to display Credentials window
-3. Downloaded the **labsuser.pem** file
-4. Made note of the instance's **Public IP address**
-5. Opened a terminal and navigated to the download directory:
-   ```bash
-   cd ~/Downloads
-   ```
-6. Changed permissions on the key file:
-   ```bash
-   chmod 400 labsuser.pem
-   ```
-7. Connected via SSH:
-   ```bash
-   ssh -i labsuser.pem ec2-user@<public-ip-address>
-   ```
-8. Typed `yes` when prompted to allow the first connection
-
-<img width="800" alt="Terminal showing successful SSH connection" src="https://github.com/user-attachments/assets/placeholder-ssh-success.png" />
 
 ---
 
@@ -350,6 +368,9 @@ Once connected to the EC2 instance via SSH, I ran the following command:
 ```bash
 ping google.com
 ```
+
+<img width="1919" height="1019" alt="Screenshot 2026-02-22 180008" src="https://github.com/user-attachments/assets/116c3083-2558-4900-a760-e6aa13a60d31" />
+
 
 ### Step 2: Verify Successful Connectivity
 
@@ -365,8 +386,9 @@ PING google.com (142.250.190.46) 56(84) bytes of data.
 4 packets transmitted, 4 received, 0% packet loss, time 3005ms
 rtt min/avg/max/mdev = 11.8/12.025/12.3/0.194 ms
 ```
+<img width="1919" height="1017" alt="Screenshot 2026-02-22 180030" src="https://github.com/user-attachments/assets/f397ad2a-7da0-483e-910f-71a5af293e6b" />
 
-<img width="800" alt="Terminal showing successful ping to google.com with 0% packet loss" src="https://github.com/user-attachments/assets/placeholder-ping-success.png" />
+
 
 ### Step 3: Exit Ping
 
