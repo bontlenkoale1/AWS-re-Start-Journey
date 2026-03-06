@@ -1,4 +1,4 @@
-# 📊 Lab: Monitor an EC2 Instance
+#  Monitor an EC2 Instance 📊
 
 ## Lab Overview
 
