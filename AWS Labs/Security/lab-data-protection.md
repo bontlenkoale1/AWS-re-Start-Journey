@@ -1,5 +1,4 @@
 # Data Protection Using Encryption (AWS KMS Lab)🔐 
----
 
 ##  Overview 📌
 
