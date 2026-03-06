@@ -63,7 +63,7 @@ I successfully established an SSH connection to the Amazon Linux EC2 instance us
 
 ---
 
-### **Task 2: Explore the Linux man Pages**
+### **Task 2️⃣: Explore the Linux man Pages**
 
 In this task, I explored the Linux manual pages (man pages)—the built-in documentation system for Linux commands.
 
