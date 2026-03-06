@@ -154,6 +154,8 @@ In this task, I explore pre-created users and user groups in IAM.
 #### ✅ Task 2 Summary
 In this task, I viewed pre-created users and user groups and learned about attached policies and the differences between group permissions.
 
+<img width="1900" height="914" alt="Screenshot 2026-02-25 185917" src="https://github.com/user-attachments/assets/b89fc471-b8f4-4870-b84f-774c534c6f4b" />
+
 
 ---
 
@@ -180,7 +182,8 @@ My company is growing its AWS usage with many EC2 instances and significant S3 s
    - Choose **Add users**
    - Verify user-1 now appears in the Users tab
 
-![Uploading Screenshot 2026-02-25 190254.png…]()
+<img width="1914" height="918" alt="Screenshot 2026-02-25 190254" src="https://github.com/user-attachments/assets/144dc723-1161-4981-ad31-5229eddecc3e" />
+
 
 2. **Add user-2 to EC2-Support Group**
    - Navigate to **User groups**
@@ -190,6 +193,9 @@ My company is growing its AWS usage with many EC2 instances and significant S3 s
    - Check the box for **user-2**
    - Choose **Add users**
    - Verify user-2 now appears in the Users tab
+  
+<img width="1918" height="914" alt="Screenshot 2026-02-25 190355" src="https://github.com/user-attachments/assets/6e36bef0-e5f8-45b3-8aa6-dca60603037a" />
+
 
 3. **Add user-3 to EC2-Admin Group**
    - Navigate to **User groups**
@@ -200,19 +206,24 @@ My company is growing its AWS usage with many EC2 instances and significant S3 s
    - Choose **Add users**
    - Verify user-3 now appears in the Users tab
 
+<img width="1913" height="916" alt="Screenshot 2026-02-25 190452" src="https://github.com/user-attachments/assets/1ac17a72-6c9f-4867-b22a-c94442ceea00" />
+
+
 4. **Verify Group Membership**
    - Navigate back to **User groups**
    - Each group should show a **1** in the Users column
    - If not, revisit steps to confirm assignments
 
+<img width="1912" height="917" alt="Screenshot 2026-02-25 190530" src="https://github.com/user-attachments/assets/4654d008-1473-46d8-bd42-47931680d626" />
+
 #### ✅ Task 3 Summary
-In this task, you added all associated users to their respective user groups based on job function requirements.
+In this task, I added all associated users to their respective user groups based on job function requirements.
 
 ---
 
 ### **Task 4: Sign In and Test User Permissions**
 
-In this task, you test the permissions of each IAM user.
+In this task, I test the permissions of each IAM user.
 
 #### Step 1: Obtain IAM Sign-in URL
 
@@ -234,6 +245,8 @@ In this task, you test the permissions of each IAM user.
    - **Password**: `Lab-Password1`
    - Choose **Sign in**
 
+<img width="1919" height="1021" alt="Screenshot 2026-02-25 191038" src="https://github.com/user-attachments/assets/1039e722-3ddb-4093-a4be-52552e93119e" />
+
 3. **Test S3 Access:**
    - From Services menu, choose **S3**
    - Select a bucket and browse contents
@@ -243,6 +256,9 @@ In this task, you test the permissions of each IAM user.
    - From Services menu, choose **EC2**
    - In left navigation, choose **Instances**
    - ❌ **Expected**: Error message: *"You are not authorized to perform this operation"*
+
+<img width="1908" height="912" alt="Screenshot 2026-02-25 191344" src="https://github.com/user-attachments/assets/9e2c6c72-895b-4d24-98c8-1538a9c32ee5" />
+
 
 5. **Sign out user-1:**
    - At top of screen, choose **user-1** → **Sign out**
@@ -261,12 +277,16 @@ In this task, you test the permissions of each IAM user.
    - Verify Region matches your lab Region (e.g., Oregon)
    - ✅ **Expected**: Can view EC2 instance
 
+<img width="1913" height="908" alt="Screenshot 2026-02-25 192501" src="https://github.com/user-attachments/assets/64b76c8e-e3d0-46f6-b26b-c495488f28f1" />
+
 3. **Test EC2 Modify Permissions:**
    - Select the EC2 instance
    - From **Instance state** dropdown, choose **Stop instance**
    - In confirmation, choose **Stop**
    - ❌ **Expected**: Error: *"Failed to stop the instance. You are not authorized to perform this operation"*
    - Choose **Cancel**
+
+<img width="1914" height="911" alt="Screenshot 2026-02-25 191818" src="https://github.com/user-attachments/assets/8ae1c9c2-6e73-4e62-832e-b47423d840c4" />
 
 4. **Test S3 Access:**
    - From Services menu, choose **S3**
@@ -305,7 +325,8 @@ In this task, you test the permissions of each IAM user.
 
 ## 🎓 Conclusion
 
-Congratulations! You have successfully completed this lab and demonstrated proficiency in:
+Congratulations!
+I have successfully completed this lab and demonstrated proficiency in:
 
 | Objective | Completed |
 |-----------|-----------|
@@ -336,5 +357,3 @@ Congratulations! You have successfully completed this lab and demonstrated profi
 - [IAM Policy Examples](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_examples.html)
 
 ---
-
-*This lab is part of the AWS re/Start program curriculum.*
