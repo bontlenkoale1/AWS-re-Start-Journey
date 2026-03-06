@@ -284,9 +284,13 @@ AWS KMS securely manages the **encryption keys** used in this process.
 In this lab, I successfully:
 
 ✅ Created an **AWS KMS symmetric encryption key**
+
 ✅ Configured an **EC2 File Server environment**
+
 ✅ Installed the **AWS Encryption CLI**
+
 ✅ Encrypted plaintext files into ciphertext
+
 ✅ Decrypted the encrypted files back into readable data
 
 This lab demonstrated how **AWS KMS and the AWS Encryption CLI can be used together to protect sensitive data using encryption.**
