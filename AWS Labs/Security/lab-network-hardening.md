@@ -174,9 +174,13 @@ This confirmed that the updated Lambda function had been scanned again.
 In this lab, I successfully:
 
 ✅ Activated **Amazon Inspector**
+
 ✅ Reviewed and analyzed vulnerability findings
+
 ✅ Identified a vulnerable dependency in a Lambda function
+
 ✅ Remediated the issue by updating the package
+
 ✅ Verified the fix through a new Amazon Inspector scan
 
 This lab demonstrated how **Amazon Inspector helps improve application security by continuously monitoring AWS resources and detecting vulnerabilities early in the development lifecycle.**
