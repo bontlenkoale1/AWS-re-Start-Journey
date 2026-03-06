@@ -277,7 +277,6 @@ In this task, I test the permissions of each IAM user.
    - Verify Region matches your lab Region (e.g., Oregon)
    - ✅ **Expected**: Can view EC2 instance
 
-<img width="1913" height="908" alt="Screenshot 2026-02-25 192501" src="https://github.com/user-attachments/assets/64b76c8e-e3d0-46f6-b26b-c495488f28f1" />
 
 3. **Test EC2 Modify Permissions:**
    - Select the EC2 instance
@@ -310,6 +309,8 @@ In this task, I test the permissions of each IAM user.
    - From **Instance state** dropdown, choose **Stop instance**
    - In confirmation, choose **Stop**
    - ✅ **Expected**: Instance enters *Stopping* state and shuts down
+
+<img width="1913" height="908" alt="Screenshot 2026-02-25 192501" src="https://github.com/user-attachments/assets/64b76c8e-e3d0-46f6-b26b-c495488f28f1" />
 
 3. **Close the private window**
 
