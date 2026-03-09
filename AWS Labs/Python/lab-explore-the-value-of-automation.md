@@ -5,8 +5,7 @@ Automation is the technology by which a process or procedure is performed with m
 
 In this lab, I will:
 
-Participate in a group to research a topic on automation
-Present your results to the class
+research a topic on automation
 
 ![2b77683e-8a67-4554-8a1a-eaf28c52ff8e_what-is-deployment-automation-and-why-should-you-care](https://github.com/user-attachments/assets/dbdef1e5-5510-4f8b-a56e-1c37a60c66b5)
 
