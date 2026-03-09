@@ -20,11 +20,11 @@ I choose one of the following automation topics and spend about 15 minutes resea
 
 # Topic: Deployment Automation
 
-Deployment automation is a way to get your code to a useable format either for testing or for use. Use the Internet to research answers to the following questions:
+Deployment automation is a way to get your code to a useable format either for testing or for use. Research and answer the following questions:
 
 **What are some deployment automation tools?**
 
-Through our collaborative research, we identified these key tools:
+Through research, I identified these key tools:
 
 | Tool | Description | Researched By |
 |------|-------------|---------------|
@@ -35,7 +35,7 @@ Through our collaborative research, we identified these key tools:
 
 **What are the expected benefits of deployment automation?**
 
-Our group discussion identified these key benefits:
+I identified these key benefits:
 
 1. **Reduction in human error** - Manual deployments are prone to human error. Automated processes ensure consistency every time.
 
@@ -44,10 +44,12 @@ Our group discussion identified these key benefits:
 3. **Improves reliability** - Automated deployments are consistent, repeatable, and standardized across all environments. 
 **What are the challenges and problems with implementing deployment automation?**
 
-Based on our research and discussion, we found these challenges:
+Based on research and evaluation, I found these challenges:
 
 1. **Complex toolchains** - If the initial setup is not properly designed, automation pipelines can become unwieldy. Automation requires careful planning, configuring, and tool integration.
 2. **Environmental inconsistency** - Deployments may fail due to differences between production and testing environments. What works in development might not work in production.
+3. **Security Vulnerabilities** - Misconfigured pipelines or hardcoded credentials can introduce sensitive data exposure.
+Automated workflows may amplify the impact of compromised dependencies or supply chain attacks.
 
 
 ## Lab Review: 
