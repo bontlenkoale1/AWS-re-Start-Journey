@@ -26,11 +26,11 @@ Deployment automation is a way to get your code to a useable format either for t
 
 Through research, I identified these key tools:
 
-| Tool | Description | Researched By |
-|------|-------------|---------------|
-| **Jenkins** | An open-source automation server used to build, test, and deploy software automatically | 
+| Tool | Description |
+|------|-------------|
+| **Jenkins** | An open-source automation server used to build, test, and deploy software automatically |
 | **Terraform** | Enables Infrastructure as Code for consistent, scalable provisioning |
-| **Bitbucket Pipelines** | A CI/CD platform that automates the entire deployment process, from testing to deployment | 
+| **Bitbucket Pipelines** | A CI/CD platform that automates the entire deployment process, from testing to deployment |
 | **Docker** | Containerizes applications for consistent deployment across environments |
 
 **What are the expected benefits of deployment automation?**
