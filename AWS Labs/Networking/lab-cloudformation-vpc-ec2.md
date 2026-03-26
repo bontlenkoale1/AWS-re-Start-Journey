@@ -76,8 +76,8 @@ ImageId: ami-03caad32a158f72db
 ```
 
 # Then Redeploy
-Go to CloudFormation
-Delete the failed stack
+Back to CloudFormation
+Deleted the failed stack
 
 Wait for:
 
@@ -87,7 +87,7 @@ DELETE_COMPLETE
 Created a new stack with the updated template
 
 Expected Result
-After fixing, your stack should show:
+After fixing,stack should show:
 
 ```
 CREATE_COMPLETE
@@ -134,7 +134,7 @@ Stack reached CREATE_COMPLETE status✅
 
 EC2 instance launched within the private subnet ✅
 
-#Final Architecture
+# Final Architecture
 
 ![q7_xH_nFr82AOgK_8JSvzInmCrzLrIxOz_Co30SAChaSZ3DjzV5x6vIB9i4OG148YWWOX_WjgIrLaHNiIanOM4_MeL-Ti9EtWmwRTo51QnCpjP6cJEKNDHDCFgY6qFHVrciLedTsxYT-DiATM_am8Wq-zK67-qnV7zDDFrT14uA_tL3GXwCmnUig9X2pcVgW](https://github.com/user-attachments/assets/c1093c46-deeb-42e1-a7e1-aea36647bc02)
 
