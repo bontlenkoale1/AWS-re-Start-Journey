@@ -75,13 +75,13 @@ MyEC2Instance:
 ImageId: ami-03caad32a158f72db
 ```
 
-#Then Redeploy
+# Then Redeploy
 Go to CloudFormation
 Delete the failed stack
 
 Wait for:
 
-``
+```
 DELETE_COMPLETE
 ```
 Created a new stack with the updated template
@@ -94,10 +94,49 @@ CREATE_COMPLETE
 ```
 
 
+<img width="1910" height="915" alt="Screenshot 2026-03-26 120922" src="https://github.com/user-attachments/assets/9d8805fd-e45f-48f4-b11d-5f8fdfb61f45" />
+<img width="1910" height="909" alt="Screenshot 2026-03-26 120950" src="https://github.com/user-attachments/assets/62d44e6e-6c89-441a-b71e-c9c629aa0711" />
 
 
+<img width="1908" height="908" alt="Screenshot 2026-03-26 121034" src="https://github.com/user-attachments/assets/f1a88e88-9060-4372-a9b4-f8730f8b4799" />
+<img width="1905" height="901" alt="Screenshot 2026-03-26 121004" src="https://github.com/user-attachments/assets/5c7f6575-769e-436d-9c91-6a357f38930c" />
+<img width="1910" height="909" alt="Screenshot 2026-03-26 120950" src="https://github.com/user-attachments/assets/10584508-f60e-4fd7-8531-dc2aaf658778" />
+<img width="1910" height="906" alt="Screenshot 2026-03-26 121337" src="https://github.com/user-attachments/assets/de13c2d0-c056-4d3e-9c9c-fcdea0d0e506" />
 
+# Key Learnings
+• Infrastructure as Code (IaC) using CloudFormation
 
+•VPC networking fundamentals (subnets, route tables, gateways)
+
+•Region-specific configurations in AWS
+
+•Debugging CloudFormation stack errors
+
+•Automating cloud resource provisioning
+
+# Concepts Used
+AWS CloudFormation ✅
+
+Amazon VPC✅
+
+EC2 Instances ✅
+
+Security Groups✅
+
+Internet Gateway✅
+
+Route Tables & Subnet Associations ✅
+
+# Project Outcome
+Successfully deployed all resources✅
+
+Stack reached CREATE_COMPLETE status✅
+
+EC2 instance launched within the private subnet ✅
+
+#Final Architecture
+
+![q7_xH_nFr82AOgK_8JSvzInmCrzLrIxOz_Co30SAChaSZ3DjzV5x6vIB9i4OG148YWWOX_WjgIrLaHNiIanOM4_MeL-Ti9EtWmwRTo51QnCpjP6cJEKNDHDCFgY6qFHVrciLedTsxYT-DiATM_am8Wq-zK67-qnV7zDDFrT14uA_tL3GXwCmnUig9X2pcVgW](https://github.com/user-attachments/assets/c1093c46-deeb-42e1-a7e1-aea36647bc02)
 
 
 
