@@ -9,7 +9,7 @@
 ### AWS Certified Cloud Practitioner
 📅 Earned: **4 May 2026**
 
-Validated knowledge of:<img width="400" height="400" alt="aws-certified-cloud-practitioner" src="https://github.com/user-attachments/assets/4c77e7d3-657e-4239-a86f-ae5fd5fa1412" />
+Validated knowledge of:<img width="200" height="200" alt="aws-certified-cloud-practitioner" src="https://github.com/user-attachments/assets/4c77e7d3-657e-4239-a86f-ae5fd5fa1412" />
 
 
 - AWS Global Infrastructure
@@ -29,13 +29,6 @@ Successfully completed AWS's workforce development program focused on:
 - Python
 - AWS Services
 - Professional Development
-
-
-<p align="center">
-<img width="400" height="400" alt="aws-certified-cloud-practitioner" src="https://github.com/user-attachments/assets/78da4eb4-faf0-4607-9104-5c646c40c768" />
-
-  
-</p>
 
 <p align="center">
  <img width="1875" height="827" alt="Screenshot 2026-06-03 153552" src="https://github.com/user-attachments/assets/e34a255d-df1a-44b4-acd0-7e268f5b700c" />
