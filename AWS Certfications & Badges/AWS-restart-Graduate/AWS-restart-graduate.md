@@ -1,7 +1,8 @@
 # 🎓 AWS re/Start Graduate
 
 <p align="center">
-  <img src="../aws-restart-graduate-badge.png" width="250" alt="AWS re/Start Graduate Badge">
+  <img width="100" height="100" alt="image (8)" src="https://github.com/user-attachments/assets/56bc4b64-2a61-4a47-a033-a96f2f4eec54" />
+
 </p>
 
 ## Program Completion
