@@ -19,16 +19,6 @@ Validated knowledge of:<img width="100" height="100" alt="aws-certified-cloud-pr
 - Billing & Pricing Models
 - Cloud Adoption Best Practices
 
-### AWS re/Start Graduate
-Successfully completed AWS's workforce development program focused on:
-
-- Cloud Computing Fundamentals
-- Linux
-- Networking
-- Security
-- Python
-- AWS Services
-- Professional Development
 
 <p align="center">
  <img width="1875" height="827" alt="Screenshot 2026-06-03 153552" src="https://github.com/user-attachments/assets/e34a255d-df1a-44b4-acd0-7e268f5b700c" />
