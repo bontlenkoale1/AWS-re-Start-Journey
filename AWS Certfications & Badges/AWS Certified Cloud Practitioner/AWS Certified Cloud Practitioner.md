@@ -9,7 +9,7 @@
 ### AWS Certified Cloud Practitioner
 📅 Earned: **4 May 2026**
 
-Validated knowledge of:<img width="200" height="200" alt="aws-certified-cloud-practitioner" src="https://github.com/user-attachments/assets/4c77e7d3-657e-4239-a86f-ae5fd5fa1412" />
+Validated knowledge of:<img width="150" height="150" alt="aws-certified-cloud-practitioner" src="https://github.com/user-attachments/assets/4c77e7d3-657e-4239-a86f-ae5fd5fa1412" />
 
 
 - AWS Global Infrastructure
